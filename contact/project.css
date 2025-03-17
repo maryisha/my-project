@@ -1,17 +1,20 @@
 *{
-    margin: 0px;
+    
     padding: 0px;
     box-sizing:border-box;
-    margin: ;
+    margin: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 40;
+    border-radius: 5px;
+    color: #fff9f9;
 
 }
 body{
-    background-color:rgb(142, 142, 143);
+    background-color:rgb(240, 240, 243);
     /* margin-right: 800px; */
     color: white;
+    margin: center;
     
+
 }
 .container{
     overflow: hidden;
@@ -26,15 +29,17 @@ body{
     /* max-width: 400px; */
     /* padding: 20px; */
     /* background-color: aliceblue; */
-    background-color: rgb(247, 247, 247);
+    /* background-color: rgb(247, 247, 247); */
     boader-radius:10px;
     border-shadow:10px;
+    color: aliceblue;
 }
 .contactus-container{
     margin-left: 50px;
     margin-top:50px ;
     width: 8%;
     height:40% ;
+    color: aliceblue;
 }
 
 
@@ -45,14 +50,17 @@ body{
         width: 400px;
         height: 80%;
         /* background-color: gray; */
+        color: aliceblue;
     }
 
 
 
 .fname{
     background-color: transparent;
-    color: rgb(24, 24, 24);
-    
+    color:white;
+    margin-right: 20px;
+    /* margin-top: 5px; */
+    margin-left:15px;
     
 
     /* border-bottom: 2px black solid; */
@@ -73,7 +81,7 @@ body{
 }
 h1{
     font-size: 40px;
-    color: rgb(41, 40, 40);
+    color: rgb(250, 247, 247);
 }
 /* .fmidvsCont{
     display: flex;
@@ -103,6 +111,7 @@ h1{
     background: rgb(41, 40, 40);
     padding: 100px;
     column-rule-color: antiquewhite;
+    margin-right: 40px;
 }
 
 .yellowDiv{
@@ -116,7 +125,7 @@ h1{
 }
 h2{
     font-size: 12px;
-    color: black;
+    color: rgb(250, 248, 248);
     margin-top: 20px;
 }
 h3{
@@ -128,8 +137,10 @@ h3{
 }
 .femail{
     background-color: transparent;
-    color: rgb(24, 24, 24);
+    color: rgb(247, 244, 244);
     margin: 9px;
+    margin-left: 40px;
+    margin-right: 19px;
 
     
     
@@ -138,20 +149,33 @@ h3{
 }
 .fphone{
     background-color: transparent;
-    color: rgb(24, 24, 24);
-    
+    color: rgb(243, 238, 238);
+    margin-left: 30px;
+    margin-right: 10px;
 
 
     /* border-bottom: 2px black solid; */
 }
-.textareamessage{
+.fmassege{
     background-color: transparent;
-    color: rgb(24, 24, 24);
-    margin:3px;
+    color:white;
+    margin-left: 40px;
     display: flex;
+    align-items: center;
+    margin-right: 25px;
     
     
 
     /* border-bottom: 2px black solid; */
+}
+ .fmidvsemail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.infoCont p{
+    margin-left: 40px;
+    margin-left: 30px;
 }
 
