@@ -1,0 +1,42 @@
+ form{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    /* background-color: gray; */
+
+    box-shadow: 0px 4px 80px red(0,0,0,0.2);
+    
+}
+
+H1{
+    color: rgb(32, 255, 12);
+}
+
+label{
+    color: white;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+
+p{
+    color: white;
+}
+input{
+    text-align: center;
+    border-radius: 10px;
+    width:200px ;
+    height: 30px;
+    padding-left: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 300px;
+}
